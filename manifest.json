@@ -1,0 +1,27 @@
+{
+  "name": "Habbix'ads",
+  "description": "Remove ads from Habbix | By Lande",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.habbix.ws/*"],
+      "js": ["main.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/logo/logo16.png",
+      "32": "/logo/logo32.png",
+      "128": "/logo/logo128.png"
+    }
+  },
+  "icons": {
+    "16": "/logo/logo16.png",
+    "32": "/logo/logo32.png",
+    "128": "/logo/logo128.png"
+  }
+}
