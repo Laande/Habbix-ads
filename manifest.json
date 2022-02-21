@@ -11,14 +11,6 @@
       "run_at": "document_end"
     }
   ],
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "/logo/logo16.png",
-      "32": "/logo/logo32.png",
-      "128": "/logo/logo128.png"
-    }
-  },
   "icons": {
     "16": "/logo/logo16.png",
     "32": "/logo/logo32.png",
